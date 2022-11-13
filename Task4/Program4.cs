@@ -15,7 +15,7 @@ decimal number = decimal.Parse(Console.ReadLine());
 /* 
     Создаем цикл.
 */
-
+Console.Write($"Subsequence of even numbers from {number} to 1:");
 while(number >= 1)
 {
 /*
@@ -28,7 +28,7 @@ while(number >= 1)
 if (number % 2 == 0)
 {
     // YES!
-    Console.WriteLine($"Subsequence of even numbers = {number}");
+    Console.Write($" {number}, ");
 }
 else 
 {
